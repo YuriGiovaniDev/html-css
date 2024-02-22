@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(235, 60, 54);
+}
+.img{
+    text-align: center;
+}
+.texto{
+    color: mintcream;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aud{
+    text-align: center;
+}
+.video{
+    text-align: center;
+}
+.nextback{
+    color: mintcream;
+    text-align: right;
+    size: 20px;
+}
+.backb{
+    color: mintcream;
+}
+.layoutnb{
+    display: flex;
+    justify-content: space-between;
+}

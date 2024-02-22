@@ -1,0 +1,50 @@
+.layout{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(32, 250, 141);
+}
+h2{
+    text-align: center;
+    color: mintcream;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li{
+padding-inline: 30px;
+}
+a:hover{
+    color: rgb(104, 159, 231);
+}
+a{
+    text-decoration: none;
+    color: moccasin;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    background-color: rgb(19, 22, 63);
+}
+.img{
+   margin-left: 60px;
+
+}
+body{
+    background-color: rgb(0, 1, 37);
+}
+.desc{
+    display: flex;
+    justify-content: space-around;
+}
+  
+
+    

@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'typewriter';
+    src: url('JMH Typewriter.otf') format(opentype); 
+}
+
+@font-face {
+    font-family: 'hyperPolar';
+    src: url('HyperPolarRegular.otf') format(opentype);
+}
+
+@font-face { 
+    font-family:'Regular Brush' ;
+    src: url('Regular\ Brush.otf') format(opentype);
+}
+*{
+    padding: 0; 
+}
+body{
+    background-image: linear-gradient(to right,#7F636E, #5c384d );
+}
+.locatebar{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: #F6AE2D;
+    height: 50px;
+    font-size: 30px;
+}
+.locatebar li{
+font-family: 'typewriter';
+color: mintcream;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: 'typewriter';
+    font-size: 30px
+}
+.navbar li{
+    background-color: #F6AE2D;
+}
+.img{
+    margin: auto;
+    width: 1330px;
+    height: 550px;
+    position: relative;
+    border-radius: 20px;
+}
+.container h1{
+    font-family: 'Regular Brush';
+    color: #f09d0d;
+    font-size: 120px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-40%, -50%);
+    z-index: 1;
+    font-size: 150px;
+
+}
+.Sobre{
+   padding: 50px;
+   font-size: 45px;
+   color: #271a02;
+   font-family: 'Regular Brush';
+   padding-right: 30px;
+}
+.ps{
+    color: mintcream;
+    font-size: 30px;
+    padding-left: 30px;
+}
+.imagem{
+width: 400px;
+padding-left: 900px;
+border-radius: 30px;
+box-shadow: 10px 10px 10px black;
+
+}

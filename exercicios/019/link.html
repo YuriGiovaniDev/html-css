@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste pseudo classe</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        a{
+            font-size: 50px;
+            color: black;
+            text-decoration: none;
+            
+        }
+        .link1:hover{
+            color: blue;
+        }
+       .d1 > p{
+        display: none;
+       }
+       .d1:hover > p{
+        display: block;
+       }
+       .link2:hover{
+        color: red;
+       }
+       .d2 > p{
+        display: none;
+       }
+       .d2:hovectiver > p{
+        display: block;
+       }
+       .link1:hover
+        color: yellow;
+       }
+       .link1::after{
+        content: '(Link)';
+       }
+    </style>
+</head>
+<body>
+    <div class="d1"><a class="link1" href="#">Github</a>
+    <p>Toma no seu cu</p></div>
+    <div class="d2"><a class="link2" href="#">Youtube</a>
+    <p>Toma no cu dnv</p></div>
+</body>
+</html>
